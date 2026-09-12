@@ -1,0 +1,26 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+}
+
+main {
+    width: 600px;
+    max-width: 90%;
+}
+
+#image {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
